@@ -1,58 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">  
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link rel="stylesheet" href="login.css" />
-  </head>
-  <body>
-        <p>Welcome to Html, this is my first webpage, amazing!!!!!!</p>
-        <img  src="C:\FullStackSoftwareDevelopment\images\mmm.jpg" alt="nature  field " height="100" width="500"/><br>
- 
-        <h1>Login Page</h1>
-        <form>
-            <!-- Basic Details -->
-            <label>Username:</label><br>
-            <input type="text" placeholder="Username" required><br><br>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
 
-            <label>Full Name:</label><br>
-            <input type="text" placeholder="Full Name" required><br><br>
+<body>
+  <div class="container">
 
-            <label>Email:</label><br>
-            <input type="email" placeholder="Email" required><br><br>
+    <header>
+      <h1>Login Page</h1>
+      <p>Welcome to HTML, this is my first webpage!</p>
+    </header>
 
-            <label>Password:</label><br>
-            <input type="password" placeholder="Password" required><br><br>
+    <div class="media">
+      <img src="C:\FullStackSoftwareDevelopment\images\mmm.jpg" alt="Nature field" height="300" width="400">
+      <video src="C:\FullStackSoftwareDevelopment\windmill_vid.mp4" autoplay loop muted height="300" width="400"></video>
+    </div><br>
+    <div>
+        <h2> about us </h2>
+        <p> we promote eco-friendly practices and sustainability.</p>
+        <img src="C:\FullStackSoftwareDevelopment\images\image 1.jpg" alt="Eco-friendly" height="300" width="400">
+        <img src="C:\FullStackSoftwareDevelopment\images\image 2.jpg" alt="Sustainability" height="300" width="400">
+        <img src="C:\FullStackSoftwareDevelopment\images\image 3.jpg"  alt=" hospitals"  height="300" width="400">
+    </div>
+    <div class="form-container">
+        <h3>login </h3>
+    <form>
+      <label>Username</label>
+      <input type="text" placeholder="Username" required>
 
-            <!-- Additional Data -->
-            <label>Phone Number:</label><br>
-            <input type="tel" placeholder="e.g. 0712345678"><br><br>
+      <label>Full Name</label>
+      <input type="text" placeholder="Full Name" required>
 
-            <label>Date of Birth:</label><br>
-            <input type="date"><br><br>
+      <label>Email</label>
+      <input type="email" placeholder="Email" required>
 
-            <label>Gender:</label><br>
-            <input type="radio" name="gender"> Male
-            <input type="radio" name="gender"> Female
-            <input type="radio" name="gender"> Other<br><br>
+      <label>Password</label>
+      <input type="password" placeholder="Password" required>
 
-            <label>Country:</label><br>
-            <select>
-            <option>Kenya</option>
-            <option>Uganda</option>
-            <option>Tanzania</option>
-            <option>Rwanda</option>
-            </select><br><br>
+      <label>Phone Number</label>
+      <input type="tel" placeholder="0712345678">
 
-            <label>About You:</label><br>
-            <textarea rows="4" cols="40" placeholder="Tell us about yourself"></textarea><br><br>
+      <label>Date of Birth</label>
+      <input type="date">
 
-            <input type="checkbox"> I agree to the terms and conditions<br><br>
+      <label>Gender</label>
+      <div class="gender">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Other</label>
+      </div>
 
-            <!-- Buttons -->
-            <button type="submit">Login</button>
-            <button type="button">Forgot Password</button>
+      <label>Country</label>
+      <select>
+        <option>Kenya</option>
+        <option>Uganda</option>
+        <option>Tanzania</option>
+        <option>Rwanda</option>
+      </select>
+
+      <label>About You</label>
+      <textarea rows="3" placeholder="Tell us about yourself"></textarea>
+
+      <div class="terms">
+        <input type="checkbox">
+        <span>I agree to the terms and conditions</span>
+      </div>
+
+      <div class="buttons">
+        <button type="submit">Login</button>
+        <button type="button">Register</button>
+        <button type="button">Forgot Password</button>
+      </div>
     </form>
- </body>
+    <div class="form-container">
+        <div class="item" 1> </div>
+        <div class="item" 2> </div>
+        <div class="item" 3></div>
+        <div class="item" 4></div>
+        <div class="item" 5></div>
+        <div class="item" 6></div>
+  
+
+     </div>
+
+    </div>
+    <footer>
+      &copy; 2024 My Website. All rights reserved.
+    </footer>
+
+  </div>
+</body>
 </html>
